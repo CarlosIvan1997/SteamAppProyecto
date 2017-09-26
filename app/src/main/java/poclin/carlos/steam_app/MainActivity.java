@@ -36,10 +36,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.btn_actualizar:
+                Intent intent1 = new Intent(MainActivity.this, BuscarActualizarActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.btn_buscar:
+                Intent intent2 = new Intent(MainActivity.this, BuscarActivity.class);
+                startActivity(intent2);
                 break;
             case R.id.btn_eliminar:
+                Intent intent3 = new Intent(MainActivity.this, BuscarEliminarActivity.class);
+                startActivity(intent3);
                 break;
         }
     }

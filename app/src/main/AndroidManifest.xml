@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CrearActivity"></activity>
+        <activity android:name=".CrearActivity" />
+        <activity android:name=".BuscarActivity" />
+        <activity android:name=".EliminarActivity" />
+        <activity android:name=".BuscarEliminarActivity" />
+        <activity android:name=".BuscarActualizarActivity" />
+        <activity android:name=".ActualizarActivity" />
+        <activity android:name=".BuscarDatosActivity"></activity>
     </application>
 
 </manifest>

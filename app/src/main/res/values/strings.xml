@@ -10,4 +10,6 @@
     <string name="et_usuario">Escriba su usuario</string>
     <string name="et_password">Escriba su contraseña</string>
     <string name="btn_guardar">Guardar</string>
+    <string name="et_buscar">Escriba el usuario</string>
+    <string name="btn_aceptar">Aceptar</string>
 </resources>
