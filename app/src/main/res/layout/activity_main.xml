@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#607d8b">
+
+    <ImageView android:id="@+id/iv_logo"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/steam"/>
+
+    <Button android:id="@+id/btn_crear"
+        android:layout_width="wrap_content"
+        android:background="#a7ffeb"
+        android:textColor="#212121"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_create"
+        android:layout_above="@+id/btn_actualizar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <Button android:id="@+id/btn_actualizar"
+        android:textColor="#212121"
+        android:layout_width="wrap_content"
+        android:background="#a7ffeb"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_actualizar"
+        android:layout_centerInParent="true"/>
+
+    <Button android:id="@+id/btn_buscar"
+        android:layout_below="@id/btn_actualizar"
+        android:textColor="#212121"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="#a7ffeb"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_buscar"/>
+
+    <Button android:id="@+id/btn_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:background="#a7ffeb"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_eliminar"
+        android:layout_below="@+id/btn_buscar"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

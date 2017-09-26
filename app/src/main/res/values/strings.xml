@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SteamApp</string>
+    <string name="btn_create">Crear cuenta nueva</string>
+    <string name="btn_buscar">Buscar datos</string>
+    <string name="btn_actualizar">Actualizar datos</string>
+    <string name="btn_eliminar">Eliminar cuenta</string>
+    <string name="et_nombres">Escriba sus nombres</string>
+    <string name="et_apellidos">Escriba sus apellidos</string>
+    <string name="et_correo">Escriba su correo electrónico</string>
+    <string name="et_usuario">Escriba su usuario</string>
+    <string name="et_password">Escriba su contraseña</string>
+    <string name="btn_guardar">Guardar</string>
+</resources>
